@@ -1,7 +1,7 @@
 package tbc.waterfall;
 
 public class Clock {
-    protected static int UTC_OFFSET = 0;
+    protected int UTC_OFFSET = 0;
     protected int localTime = 0;
 
     public Clock(int utcOffset){
