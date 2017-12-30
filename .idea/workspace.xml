@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e519d80c-fc10-4118-a267-fa1a1d196daf" name="Default" comment="Clock中的toLocalTime方法设置为not static的；&#10;另外UtcTime类中的调用也改为not static调用">
+    <list default="true" id="e519d80c-fc10-4118-a267-fa1a1d196daf" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tbc/waterfall/Clock.java" afterPath="$PROJECT_DIR$/src/main/java/tbc/waterfall/Clock.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tbc/waterfall/UtcTime.java" afterPath="$PROJECT_DIR$/src/main/java/tbc/waterfall/UtcTime.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tbc/waterfall/HotelWorldClocksRunner.java" afterPath="$PROJECT_DIR$/src/main/java/tbc/waterfall/HotelWorldClocksRunner.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +37,8 @@
       <file leaf-file-name="UtcTime.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tbc/waterfall/UtcTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="189">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="e#132#133#0" expanded="true" />
                 <element signature="e#166#167#0" expanded="true" />
@@ -47,20 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Clock.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Clock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tbc/waterfall/Clock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="246">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotelWorldClocksRunner.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HotelWorldClocksRunner.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tbc/waterfall/HotelWorldClocksRunner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -131,9 +131,9 @@
         <option value="$PROJECT_DIR$/src/test/java/HotelWorldClocksRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/tbc/waterfall/TimeSubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/tbc/waterfall/PhoneClock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tbc/waterfall/HotelWorldClocksRunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tbc/waterfall/Clock.java" />
         <option value="$PROJECT_DIR$/src/main/java/tbc/waterfall/UtcTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tbc/waterfall/Clock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tbc/waterfall/HotelWorldClocksRunner.java" />
       </list>
     </option>
   </component>
@@ -365,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1514605785639</updated>
       <workItem from="1514605793883" duration="1630000" />
-      <workItem from="1514610604854" duration="11632000" />
+      <workItem from="1514610604854" duration="12253000" />
     </task>
     <task id="LOCAL-00001" summary="添加并编写TimeSubject类和Clock类">
       <created>1514611464374</created>
@@ -402,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514631843174</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="既然成员变量UTC_OFFSET不再是静态的，那么Clock类的静态方法toLocalTime()也没有存在的必要了。&#10;但是将UTC时间转换为时钟当地时间的方法还是必需的，添加setLocalTimeFromUtcZeroTime(),&#10;这个方法中直接设置了Clock对象中localtime的值。&#10;Clock类是PhoneClock和CityClock的父类，该方法只在父类Clock中有。&#10;upcasting">
+      <created>1514632778099</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1514632778099</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13262000" />
+    <option name="totallyTimeSpent" value="13883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,7 +497,8 @@
     <MESSAGE value="将Clock类中的UTC_OFFSET变量的static去掉，输出的结果为1,5,9,-4,11，见P29" />
     <MESSAGE value="Clock中的toLocalTime方法设置为static的；&#10;另外UtcTime类中的调用也改为静态调用" />
     <MESSAGE value="Clock中的toLocalTime方法设置为not static的；&#10;另外UtcTime类中的调用也改为not static调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clock中的toLocalTime方法设置为not static的；&#10;另外UtcTime类中的调用也改为not static调用" />
+    <MESSAGE value="既然成员变量UTC_OFFSET不再是静态的，那么Clock类的静态方法toLocalTime()也没有存在的必要了。&#10;但是将UTC时间转换为时钟当地时间的方法还是必需的，添加setLocalTimeFromUtcZeroTime(),&#10;这个方法中直接设置了Clock对象中localtime的值。&#10;Clock类是PhoneClock和CityClock的父类，该方法只在父类Clock中有。&#10;upcasting" />
+    <option name="LAST_COMMIT_MESSAGE" value="既然成员变量UTC_OFFSET不再是静态的，那么Clock类的静态方法toLocalTime()也没有存在的必要了。&#10;但是将UTC时间转换为时钟当地时间的方法还是必需的，添加setLocalTimeFromUtcZeroTime(),&#10;这个方法中直接设置了Clock对象中localtime的值。&#10;Clock类是PhoneClock和CityClock的父类，该方法只在父类Clock中有。&#10;upcasting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -536,25 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tbc/waterfall/UtcTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tbc/waterfall/HotelWorldClocksRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tbc/waterfall/CityClock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -581,20 +570,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tbc/waterfall/UtcTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tbc/waterfall/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="246">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tbc/waterfall/HotelWorldClocksRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
