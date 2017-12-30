@@ -12,8 +12,8 @@ public class Clock {
         this.localTime = localTime;
     }
 
-    public int toLocalTime(int utcZeroTime) {
-        return utcZeroTime + UTC_OFFSET;
+    public void setLocalTimeFromUtcZeroTime(int utcZeroTime){
+        this.localTime = utcZeroTime + this.UTC_OFFSET;
     }
 
     public String getTime() {
